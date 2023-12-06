@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router'
 import React from 'react'
 
-const index = () => {
+const Product = () => {
   const router = useRouter()
   return (
     <div>
@@ -10,4 +10,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Product
