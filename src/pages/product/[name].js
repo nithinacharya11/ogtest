@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router'
 import React from 'react'
-import { Metadata } from 'next'
+// import { Metadata } from 'next'
 
 export const Metadata = {
   title: 'product one',
