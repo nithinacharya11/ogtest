@@ -21,7 +21,7 @@ const Product = () => {
     <div>
       <Head>
         <meta property='og:type' content='website' />
-				<meta property='og:title' content={router.query.name} />
+				<meta property='og:title' content={router.query.name ||'Boundless-Commerce Shop Example'} />
 				<meta property='og:url' content={"https://gohype.in/"} />
 				<meta property='og:image' content={"https://ik.imagekit.io/egrcxziyv/avatar/mercedez_home.jpg"} />
       </Head>
