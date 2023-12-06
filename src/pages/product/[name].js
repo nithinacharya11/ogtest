@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import { useRouter } from 'next/router'
 import React from 'react'
 // import { Metadata } from 'next'
@@ -18,6 +19,12 @@ const Product = () => {
 
      return (
     <div>
+      <Head>
+        <meta property='og:type' content='website' />
+				<meta property='og:title' content={'Boundless-Commerce Shop Example'} />
+				<meta property='og:url' content={"https://gohype.in/"} />
+				<meta property='og:image' content={"https://ik.imagekit.io/egrcxziyv/avatar/mercedez_home.jpg"} />
+      </Head>
       <p>product page for {router.query.name}</p>
     </div>
   )
